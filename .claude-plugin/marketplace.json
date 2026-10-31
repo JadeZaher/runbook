@@ -1,0 +1,28 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "runbook",
+  "description": "Single-plugin marketplace for runbook.",
+  "owner": {
+    "name": "JadeZaher"
+  },
+  "plugins": [
+    {
+      "name": "runbook",
+      "description": "Session handoff and parallel fan-out planning for Claude Code. The handoff skill owns a durable RUNBOOK.md (inline packets, durable writes, rolling checkpoints with recorded review verdicts, resume); the slice skill cuts work into conflict-free, agent-sized partitions with a dependency-ordered wave plan and a pre-launch grilling gate. Works standalone or alongside conductor-okf.",
+      "version": "1.0.0",
+      "author": {
+        "name": "JadeZaher"
+      },
+      "category": "workflow",
+      "tags": [
+        "runbook",
+        "handoff",
+        "slice",
+        "orchestration",
+        "session",
+        "planning"
+      ],
+      "source": "./"
+    }
+  ]
+}
